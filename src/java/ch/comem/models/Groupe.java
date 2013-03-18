@@ -28,6 +28,7 @@ public class Groupe implements Serializable {
         hash += (id != null ? id.hashCode() : 0);
         return hash;
     }
+    
 
     @Override
     public boolean equals(Object object) {
@@ -60,6 +61,9 @@ public class Groupe implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
-    }
+    }  
+    
+    
+    
     
 }
